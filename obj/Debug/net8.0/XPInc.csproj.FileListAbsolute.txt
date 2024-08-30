@@ -1,0 +1,14 @@
+D:\C#\XPInc\bin\Debug\net8.0\XPInc.exe
+D:\C#\XPInc\bin\Debug\net8.0\XPInc.deps.json
+D:\C#\XPInc\bin\Debug\net8.0\XPInc.runtimeconfig.json
+D:\C#\XPInc\bin\Debug\net8.0\XPInc.dll
+D:\C#\XPInc\bin\Debug\net8.0\XPInc.pdb
+D:\C#\XPInc\obj\Debug\net8.0\XPInc.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\XPInc\obj\Debug\net8.0\XPInc.AssemblyInfoInputs.cache
+D:\C#\XPInc\obj\Debug\net8.0\XPInc.AssemblyInfo.cs
+D:\C#\XPInc\obj\Debug\net8.0\XPInc.csproj.CoreCompileInputs.cache
+D:\C#\XPInc\obj\Debug\net8.0\XPInc.dll
+D:\C#\XPInc\obj\Debug\net8.0\refint\XPInc.dll
+D:\C#\XPInc\obj\Debug\net8.0\XPInc.pdb
+D:\C#\XPInc\obj\Debug\net8.0\XPInc.genruntimeconfig.cache
+D:\C#\XPInc\obj\Debug\net8.0\ref\XPInc.dll
