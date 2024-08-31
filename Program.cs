@@ -1,4 +1,28 @@
-﻿try
+﻿using XPInc.Models;
+
+new ExemploExcecao().Metodo1();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*try
 {
 string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
 
@@ -11,3 +35,4 @@ catch (Exception ex)
 {
     System.Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
 }
+*/
