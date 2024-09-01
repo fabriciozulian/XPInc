@@ -13,3 +13,6 @@ D:\C#\XPInc\obj\Debug\net8.0\XPInc.pdb
 D:\C#\XPInc\obj\Debug\net8.0\XPInc.genruntimeconfig.cache
 D:\C#\XPInc\obj\Debug\net8.0\ref\XPInc.dll
 D:\C#\XPInc\obj\Debug\net8.0\XPInc.sourcelink.json
+D:\C#\XPInc\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\C#\XPInc\obj\Debug\net8.0\XPInc.csproj.AssemblyReference.cache
+D:\C#\XPInc\obj\Debug\net8.0\XPInc.csproj.Up2Date

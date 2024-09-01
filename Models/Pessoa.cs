@@ -10,10 +10,11 @@ namespace XPInc.Models
    
     
 
-    public Pessoa(string nome, string sobrenome)
+    public Pessoa(string nome, string sobrenome, int idade)
     {
       Nome = nome;
       Sobrenome = sobrenome;
+      Idade = idade;
     }
 
     public void Deconstruct(out string nome, out string sobrenome)
@@ -24,7 +25,7 @@ namespace XPInc.Models
 
     private string _nome;
     private string _sobrenome;
-    private int _idade;
+    
 
     public string Nome
     {
@@ -53,5 +54,7 @@ namespace XPInc.Models
         _sobrenome = value;
       }
     }
+
+    public int Idade;
     }
 }
