@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XPInc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+779bd0b9382af5ac9cfe561bb36df9c6f455cf86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c44b0b564ce47687287c34bc20049e289b7f817")]
 [assembly: System.Reflection.AssemblyProductAttribute("XPInc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XPInc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,56 @@
-﻿using XPInc.Models;
+﻿using System.Collections.Concurrent;
+using System.Security.Cryptography;
+using XPInc.Models;
 
 
+int numero = 11;
+bool ehPar = numero % 2 == 0;
+
+System.Console.WriteLine($"o número {numero} "+(ehPar ? "é par" : "é impar"));
+
+
+if(numero %2 == 0)
+{
+    System.Console.WriteLine($"o número {numero} é par");
+}
+else
+{
+    System.Console.WriteLine($"o número {numero} é impar");
+}
+
+
+
+
+Pessoa fabricio = new Pessoa("Fabricio","Zulian");
+
+(string nome, string sobrenome) = fabricio;
+
+Console.WriteLine($"Nome: {nome} {sobrenome}");
+
+
+(int id, string nome, string sobrenome) tupla = (1, "Fabricio", "Zulian");
+
+ValueTuple<int, string, string> tupla2 = (1, "teste", "teste");
+var tupla3 = Tuple.Create(1, "teste", "teste");
+System.Console.WriteLine($"ID: {tupla.id}");
+System.Console.WriteLine($"Nome: {tupla.nome}");
+System.Console.WriteLine($"Sobrenome: {tupla.sobrenome}");
+
+LeituraArquivo arquivo = new LeituraArquivo();
+var (sucesso, linhas, QuantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+if (sucesso)
+{
+    foreach(var linha in linhas)
+    {
+        System.Console.WriteLine(linha);
+    }
+
+}
+else
+{
+    System.Console.WriteLine("Não foi possível ler o arquivo");
+}
 
 
 
@@ -92,3 +142,4 @@ catch (Exception ex)
 {
     System.Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
 }
+*/
